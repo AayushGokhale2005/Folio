@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 .dev.vars
+.wrangler/
 
 # JavaScript dependencies and build output
 node_modules/
