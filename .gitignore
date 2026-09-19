@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+.dev.vars
 
 # JavaScript dependencies and build output
 node_modules/

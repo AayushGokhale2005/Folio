@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build"
+    "build": "npm --prefix frontend run build",
+    "worker:dev": "npm --prefix backend-worker run dev",
+    "worker:deploy": "npm --prefix backend-worker run deploy"
   }
 }

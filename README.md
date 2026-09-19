@@ -11,6 +11,12 @@ Folio is a focused workspace for drafting books, organizing manuscripts, and col
 
 The client talks only to FastAPI. FastAPI owns the Supabase integration and no sample books, characters, scenes, or reviews are seeded.
 
+## Cloudflare Worker backend
+
+For edge hosting of the API, use [backend-worker/README.md](./backend-worker/README.md). The Worker is a deployable alternative to FastAPI and keeps the same Supabase secrets server-side.
+
+Deploy it from the repository root with `npm run worker:deploy` (rather than running `npx wrangler deploy` at the root).
+
 ## Run locally
 
 ```sh
